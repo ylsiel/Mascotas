@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Pagina de penguins</title>
+        <meta charset="UFT-8">
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Ysabeau+SC:wght@1&display=swap" rel="stylesheet">
+
+
+
+
+
+
+    </head>
+    <body>
+        <section>
+            <h1>Pagina de penguin's</h1>
+        </section>
+       
+
+
+        <h3>Imagenes de penguin</h3>
+        <!--imagen desde internet-->
+        <img class="img1"src="https://c.wallhere.com/photos/6e/f8/penguins_iceberg_nature_looking_at_viewer_snow_ice_ocean_view_animals-2204229.jpg!d">
+        <img class="img1" src="https://get.wallhere.com/photo/birds-penguins-ice-baby-animals-Arctic-Penguin-beak-bird-1920x1080-px-flightless-bird-king-penguin-sea-ice-arctic-ocean-773066.jpg">
+        
+
+        <!--imagen desde escritorio-->
+        <img class="img2" src="Imágenes/family.jpg">
+        <!--crear enlaces externos-->
+
+        <p>Si quieres ver mas penguin,
+            <a href="https://www.nationalgeographic.com.es/animales/pinguinos" target="_parent">da click en este enlace</a>.</p>
+            <h3>Lista de pinguinos</h3>
+            <p>3 Cosas <i>interesantes</i> de los pinguinos</p>
+            <!--lista ordenada-->
+            <ol><!--ordered List-->
+                <li><!--List item-->
+                    Viven en el polo Norte
+                </li>
+                <li>Pertenecen al grupo de aves marinas no voladoras</li>
+                <li>Viven entre 10 y 20 años </li>
+
+
+            </ol>
+            <p>3 Cosas que 
+                <Strong>no les gustan</Strong> a los pinguinos</p>
+            <ol>
+                <ul><!--unordered List-->
+                    <li>
+                        El calentamiento global
+                    </li>
+                    <!--si queremos que se repitan los li*3-->
+                    <li>La basura en el mar</li>
+                    <li>Ingerir microplastico</li>
+                </ul>
+
+            </ol>
+         <!--formularios-->
+         <form>
+            <!--con botones de radio-->
+            <p>¿Sabias que los 
+                <strong>Pinguinos</strong> comen crustáceos?</p>
+            <label>
+                <input id="Si" 
+                type="radio" 
+                value="Si" 
+                name="Si"
+                checked>Si
+             </label> 
+             <br> <!--sirve para dar un enter entre las opciones--> 
+             <label>
+                <input id="No" 
+                type="radio" 
+                value="No" 
+                name="No"
+                >No
+             </label>  
+             
+           <!--casisllas de verificacion-->
+           <p>¿Que tipo de Pinguinos conoces?</p>
+           <label>
+            <input id="Africano"
+            type="checkbox"
+            value="Africano"
+            name="Africano">Africano
+           </label> 
+           <label>
+            <input id="Emperador"
+            type="checkbox"
+            value="Emperador"
+            name="Emperador">Emperador
+           </label> 
+           <label>
+            <input id="Magallanes"
+            type="checkbox"
+            value="Magallanes"
+            name="Magallanes">Magallanes
+           </label> 
+         </form>   
+        
+    </body>
+    <footer>
+        <p class="footer"><Small>Esta pagina fue creada durante el Bootcamp de <a href="https://tecnolochicas.mx/" target="_parent">Tecnolochicas PRO</a>.</Small></p>
+
+
+    </footer>
+</html>

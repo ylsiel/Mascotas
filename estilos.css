@@ -1,0 +1,61 @@
+section{
+    background-color: #001C30;
+
+    
+}body{
+    background-color:white ;
+    font-family: 'Bacasime Antique', serif;
+    color: black;
+
+}
+
+h1{
+    color:yellow;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+    font-size:70px ;
+}
+h3{
+    color: #001C30;
+    font-size: 20px;
+    font-family: 'Bacasime Antique', serif;
+
+}
+img{
+    /*width: 600px;
+    height: 300px;*/
+    border-style:solid ;
+    border-radius: 20px;
+    border-color: #DAFFFB;
+    padding:px;
+    position: relative;
+}
+.img1{
+    width: 612px;
+    height: 300px;
+    /*margin-right: 20px;*/
+    margin-left: 20px;
+}
+.img2{
+    width: 1260px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    color: #001C30;
+    font-size: 20px;
+    font-family: 'Bacasime Antique', serif; 
+}
+a{
+color:blueviolet ;
+}
+
+.footer{
+    color:#FF9EAA;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+
+}
+
